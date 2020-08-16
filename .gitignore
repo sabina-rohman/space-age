@@ -1,0 +1,7 @@
+.idea/workspace.xml
+*.pyc
+venv/*
+node_modules
+.idea/space-age.iml
+
+.idea/space-age.iml

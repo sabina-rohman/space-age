@@ -1,0 +1,121 @@
+
+.planets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+.planet {
+    border-radius: 4px;
+    z-index: 3;
+    position: relative;
+    background: black;
+}
+
+.planet .planet-content {
+    color: white;
+    background: black;
+}
+
+.planet:hover {
+    transform: translateY(10px);
+    transition: 0.3s ease-in;
+}
+
+.overlay {
+    opacity: 0;
+}
+
+.planet:hover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: papayawhip;
+    opacity: 0.2;
+    height: 414px;
+    width: 278px;
+    transition: 0.3s ease-in; */
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.planet-name {
+    font-size: 2em;
+    text-transform: uppercase;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .planet:hover .overlay {
+        opacity: 0;
+    }
+
+    .planet {
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+}
+
+.planet-weight {
+    font-size: 1.5em;
+    color: white;
+}
+
+.planet-age {
+    font-size: 1.5em;
+    color: white;
+}
+
+.planet-img {
+    width: 100%;
+    display: block;
+    
+}
+
+.input-age {
+    margin: 100px 100px;
+    position: absolute;
+    top: 720px;
+    left: -10px;
+    padding: 15px;
+}
+
+.input-weight {
+    margin: 70px 50px;
+    position: absolute;
+    top: 820px;
+    left: 40px;
+    padding: 15px;
+}
+
+.save-button {
+    margin: 70px 50px;
+    position: absolute;
+    top: 900px;
+    left: 40px;
+    padding: 2px;
+}
+
+.input-age:focus {
+    color: rebeccapurple;
+    font-weight: 100px;
+}
+
+.input-weight:focus {
+    color: rebeccapurple;
+    font-weight: 100px;
+}
+
+.planet-content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: white;
+}
+
