@@ -6,7 +6,7 @@
     background-image: url(./starImages/star1.png);
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 2.5em;
     border-bottom-left-radius: 50%;
     position: relative;
