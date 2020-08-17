@@ -34,11 +34,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* background-color: papayawhip;
-    opacity: 0.2;
-    height: 414px;
-    width: 278px;
-    transition: 0.3s ease-in; */
+    transition: 0.3s ease-in;
     color: white;
     font-size: 2em;
     text-transform: uppercase;
@@ -50,17 +46,7 @@
     
 }
 
-@media only screen and (max-width: 992px) {
-    .planet:hover .overlay {
-        opacity: 0;
-    }
 
-    .planet {
-        width: 80%;
-        margin: 20px auto;
-    }
-    
-}
 
 .planet-weight {
     font-size: 1.5em;
@@ -119,3 +105,79 @@
     background: white;
 }
 
+
+@media only screen and (max-width: 992px) {
+    .planet:hover .overlay {
+        opacity: 0;
+    }
+
+    .planet {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+     
+}
+
+@media screen and (min-width: 992px){
+    .input-age {
+        margin: 70px 50px;
+        position: absolute;
+        top: 1000px;
+        left: 40px;
+    }
+
+    .input-weight {
+        position: absolute;
+        top: 1080px;
+        left: 40px;
+    }
+    
+    .save-button {
+        position: absolute;
+        top: 1170px;
+        left: 40px;
+    }   
+}
+
+@media screen and (max-width: 600px){
+    .input-age {
+        margin: 70px 50px;
+        position: absolute;
+        top: 1050px;
+        left: 40px;
+    }
+
+    .input-weight {
+        position: absolute;
+        top: 1120px;
+        left: 40px;
+    }
+    
+    .save-button {
+        position: absolute;
+        top: 1200px;
+        left: 40px;
+    }   
+}
+
+@media screen and (min-width: 600px){
+    .input-age {
+        margin: 70px 50px;
+        position: absolute;
+        top: 1050px;
+        left: 40px;
+    }
+
+    .input-weight {
+        position: absolute;
+        top: 1120px;
+        left: 40px;
+    }
+    
+    .save-button {
+        position: absolute;
+        top: 1200px;
+        left: 40px;
+    }   
+}

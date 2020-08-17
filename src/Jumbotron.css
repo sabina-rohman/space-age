@@ -25,7 +25,7 @@ h1 {
 .jumbotron .first-text {
     position: absolute;
     color: white;
-    top: 120px;
+    top: 0px;
     left: 80px;
     font-size: 20px;
 
@@ -34,7 +34,7 @@ h1 {
 .jumbotron .second-text {
     position: absolute;
     color: white;
-    top: 160px;
+    top: 40px;
     left: 80px;
     font-size: 20px;
     
@@ -219,3 +219,27 @@ h1 {
         transform: rotate(360deg);
     }
 }
+
+
+@media screen and (min-width: 992px){
+    .jumbotron .first-text {
+        position: absolute;
+        color: white;
+        top: 0px;
+        left: 80px;
+        font-size: 20px;
+    
+    }
+    
+    .jumbotron .second-text {
+        position: absolute;
+        color: white;
+        top: 50px;
+        left: 80px;
+        font-size: 20px;
+        
+    }
+}
+
+
+
