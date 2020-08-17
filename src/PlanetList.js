@@ -6,7 +6,7 @@ import mercuryImg from './images/mercury.jpg';
 import venusImg from './images/venus.jpg';
 import earthImg from './images/earth.jpg';
 import marsImg from './images/mars.jpg';
-import jupiterImg from './images/jupiter.jpg';
+import jupiterImg from './images/jupiter2.jpg';
 import saturnImg from './images/saturn.jpg';
 import uranusImg from './images/uranus.jpg';
 import neptuneImg from './images/neptune.jpg';
